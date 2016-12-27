@@ -1,6 +1,6 @@
 #laser
 
-This is a sample program for the laser. The code is approximately the same as on the website; see http://osoyoo.com/2015/04/03/laser-transmitter-module/ .
+This is a sample program for the laser. The code is approximately the same as on the website; see http://osoyoo.com/?p=640 . 
 
 
 ##Hardware
@@ -15,10 +15,10 @@ This sketch uses pin 13 of an Arduino Mega for the signal, and the 5V and GND pi
 
 Laser off:
 
-![A picture of the laser not shining](https://raw.githubusercontent.com/asinck/arduino/master/laser/off.jpg)
+![A picture of the laser not shining](off.jpg)
 
 
 Laser active:
 
-![A picture of the laser shining](https://raw.githubusercontent.com/asinck/arduino/master/laser/on.jpg)
+![A picture of the laser shining](on.jpg)
 
