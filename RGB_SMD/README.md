@@ -6,6 +6,10 @@ SMD stands for "Surface Mount Device", a device with components planted directly
 
 
 
+This is almost equivalent to the RGB_LED project.
+
+
+
 
 ##Hardware
 Wires are optional in this project. 
