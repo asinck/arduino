@@ -1,6 +1,8 @@
-#RGB_LED
+#RGB_SMD
 
-This is an example program for the RGB LED module. Adapted from the code included with the module.
+This is an example program for the RGB SMD module. Adapted from the code included with the module.
+
+SMD stands for "Surface Mount Device", a device with components planted directly on the circuit board. See https://en.wikipedia.org/wiki/Surface-mount_technology .
 
 
 
