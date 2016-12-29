@@ -6,7 +6,7 @@ SMD stands for "Surface Mount Device", a device with components planted directly
 
 
 
-This is almost equivalent to the RGB_LED project.
+This is almost equivalent to the RGB_LED project. The only difference is in the pin assignments, which I did because it lets me plug the modules directly into the arduino.
 
 
 
