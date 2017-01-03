@@ -22,10 +22,11 @@ Wiring on an example module:
 
 ## Results:
 
-```I2C Scanner
+```
+I2C Scanner
 Scanning...
 I2C device found at address 0x3F  !
-done```
+done
 ```
 
 Note, this will continue to scan every few seconds.
