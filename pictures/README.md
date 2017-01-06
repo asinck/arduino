@@ -8,22 +8,6 @@ You don't know the meaning of manual focus until you're adjusting the size of a 
 
 
 
-## Contents
-
-
-[Light Sensors](###Light Sensors)
-[Light Output](###Light Output)
-[Sound Sensors](###Sound Sensors)
-[Sound Output](###Sound Output)
-[Temperature Sensors](###Temperature Sensors)
-[Switches](###Switches)
-[Misc. Sensors](###Misc. Sensors)
-[Misc. Output](###Misc. Output)
-[Other](###Other)
-
-
-
-
 ###Light Sensors
 This uses IR to track objects.
 ![tracker](tracker.jpg)
