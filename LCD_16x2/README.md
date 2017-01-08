@@ -22,6 +22,8 @@ This uses the following wires:
 - Yellow: SCL (pin 21 on an Arduino Mega) to SCL
 
 
+With the pins pointing down and the screen facing away, the pins from left to right are SCL, SDA, VCC, and GND.
+
 
 
 ![wiring-front](pictures/wiring-front.jpg)
