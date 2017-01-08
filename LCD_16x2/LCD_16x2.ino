@@ -41,7 +41,7 @@ void setup() {
   
     // turn the backlight on
     lcd.setBacklightPin(BACKLIGHT_PIN,POSITIVE);
-    lcd.setBacklight(HIGH);    
+    lcd.setBacklight(HIGH);
 }
 
 
