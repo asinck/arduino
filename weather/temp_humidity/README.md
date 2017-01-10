@@ -10,7 +10,7 @@ This uses the following wires:
 - Arduino:
   - Red: 3V to VCC
   - Black: GND to GND
-  - Yellow: Signal to/from DATA
+  - Yellow: Analog 0 to DATA
 
 
 With the pins pointing down and the module facing forward, the pins from left to right are GND, DATA, and VCC.

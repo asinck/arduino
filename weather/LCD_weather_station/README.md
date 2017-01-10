@@ -17,7 +17,7 @@ This uses the following wires:
 
   - Orange: 3V to VCC
   - Blue: GND to GND
-  - Brown: Signal to/from DATA
+  - Brown: Analog pin 0 to DATA
 
 
 
