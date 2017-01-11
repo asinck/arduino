@@ -1,4 +1,4 @@
-#arduino
+#Module Overview
 
 These are the sensors / outputs at https://www.amazon.com/gp/product/B01CS6UMKQ . 
 
@@ -6,9 +6,23 @@ If the pictures seem distorted sometimes, there's a reason for that. My phone ca
 
 You don't know the meaning of manual focus until you're adjusting the size of a drop of water on a lens.
 
+## Contents
+
+[Light Sensors](#light-sensors)
+[Light Output](#light-output)
+[Sound Sensors](#sound-sensors)
+[Sound Output](#sound-output)
+[Temperature Sensors](#temperature-sensors)
+[Magnetic Sensors](#magnetic-sensors)
+[Switches](#switches)
+[Misc. Sensors](#misc.-sensors)
+[Misc. Output](#misc.-output)
+[Other](#other)
+
 
 
 ###Light Sensors
+
 This uses IR to track objects.
 ![tracker](tracker.jpg)
 
