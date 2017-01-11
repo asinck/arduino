@@ -9,14 +9,23 @@ You don't know the meaning of manual focus until you're adjusting the size of a 
 ## Contents
 
 [Light Sensors](#light-sensors)
+
 [Light Output](#light-output)
+
 [Sound Sensors](#sound-sensors)
+
 [Sound Output](#sound-output)
+
 [Temperature Sensors](#temperature-sensors)
+
 [Magnetic Sensors](#magnetic-sensors)
+
 [Switches](#switches)
-[Misc. Sensors](#misc.-sensors)
-[Misc. Output](#misc.-output)
+
+[Misc. Sensors](#misc-sensors)
+
+[Misc. Output](#misc-output)
+
 [Other](#other)
 
 
