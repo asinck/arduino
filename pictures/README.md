@@ -38,7 +38,7 @@ This is an IR receiver. See also the IR emitter in the [Light Output](###Light O
 This detects if the light beam going through it has been interrupted.
 ![light-blocker](light-blocker.jpg)
 
-This ... I don't know what it is. It seems to be a tilt switch connected to an LED. Some sources online claim that they need to be bought in pairs, but I have yet to see the reason.
+These are "light cups". The idea behind these is basically to put the two tilt switches against each other, tip to tip, and rock both modules back and forth. This will trigger one switch but not the other, and the arduino can make it seem like light is pouring from one into the other by adjusting the brightness of each depending on their tilt.
 ![light-cup](light-cup.jpg)
 
 This detects the presence of light.
@@ -55,7 +55,7 @@ The following two pictures are of two color LEDs. There isn't much of a differen
 ![3mm-3-color-led](3mm-2-color-led.jpg)
 ![5mm-3-color-led](5mm-2-color-led.jpg)
 
-This flashes in seven colors.
+This flashes / pulses in seven colors.
 ![7-color-flash](7-color-flash.jpg)
 
 This shines a laser.
