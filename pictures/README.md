@@ -47,9 +47,6 @@ This is an IR receiver. See also the IR emitter in the [Light Output](###Light O
 This detects if the light beam going through it has been interrupted.
 ![light-blocker](light-blocker.jpg)
 
-These are "light cups". The idea behind these is basically to put the two tilt switches against each other, tip to tip, and rock both modules back and forth. This will trigger one switch but not the other, and the arduino can make it seem like light is pouring from one into the other by adjusting the brightness of each depending on their tilt.
-![light-cup](light-cup.jpg)
-
 This detects the presence of light.
 ![photoresistor](photoresistor.jpg)
 
@@ -72,6 +69,9 @@ This shines a laser.
 
 This emits IR.
 ![ir-emitter](ir-emitter.jpg)
+
+These are "light cups". The idea behind these is basically to put the two tilt switches against each other, tip to tip, and rock both modules back and forth. This will trigger one switch but not the other, and the arduino can make it seem like light is pouring from one into the other by adjusting the brightness of each depending on their tilt.
+![light-cup](light-cup.jpg)
 
 ###Sound Sensors
 This detects small sounds.
