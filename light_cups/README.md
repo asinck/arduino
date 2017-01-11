@@ -6,7 +6,7 @@ This is a sample program for the light cups. The basic concept of the project co
 
 ## What's going on here?
 
-Face the two cups towards each other (as shown in the [Placement](###Placement) section), and tilt the assembly back and forth. 
+Face the two cups towards each other (as shown in the [Placement](#placement) section), and tilt the assembly back and forth. 
 
 These use a tilt switch to activate one and deactivate the other, depending on the tilt. The one that is below the other will begin getting brighter as the top one will become dimmer, theoretically giving the illusion that the light is pouring from one to the other.
 
