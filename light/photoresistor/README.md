@@ -17,16 +17,22 @@ With the pins pointing down and the interesting side of the module facing you, t
 
 ##Results
 When the lamp is off: 
+
 Sample output: `Brightness: 434`
+
 ![lamp-off](pictures/lamp-off.jpg)
 
 When the lamp is on:
+
 Sample output: `Brightness: 851`
+
 ![lamp-on](pictures/lamp-on.jpg)
 
 
 When a flashlight is also used:
+
 Sample output: `Brightness: 982`
+
 ![flashlight](pictures/flashlight.jpg)
 
 
