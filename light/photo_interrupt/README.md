@@ -1,4 +1,4 @@
-#Photo Interrupt Sensor
+# Photo Interrupt Sensor
 
 This is a sample program for the photo interrupt sensor. It appears to be an Arduino KY-010 Optical broken module.
 
@@ -7,7 +7,7 @@ Note that this is basically a switch, although a better use might be counting.
 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to VCC (+)
 - Black: GND to GND

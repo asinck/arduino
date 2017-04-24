@@ -1,11 +1,11 @@
-#Ultrasonic
+# Ultrasonic
 
 This is an example program for the ultrasonic module. Adapted from the code included with the module.
 
 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Arduino:
   - Red: 5V to VCC

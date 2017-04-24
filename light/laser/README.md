@@ -1,9 +1,9 @@
-#laser
+# Laser
 
 This is a sample program for the laser. The code is approximately the same as on the website; see http://osoyoo.com/?p=640 . 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to laser
 - Black: GND to laser

@@ -1,9 +1,9 @@
-#joystick
+# joystick
 
 This is a sample program for the joystick. The code is similar to that that provided with the module.
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to +5V of joystick
 - Black: GND to GND of joystick

@@ -1,10 +1,10 @@
-#Flame Sensor
+# Flame Sensor
 
 This is a sample program for the flame sensor.
 
 In the examples below, note that it works even though the flame is rather small. However, the sensor must be pointing at the flame to work. A few degrees can mean not detecting the flame.
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to VCC (+)
@@ -14,7 +14,7 @@ This uses the following wires:
 
 With the pins pointing down and the interesting side of the module facing you, the pins from left to right are `A0`, `GND`, `+`, and `D0`.
 
-##Results
+## Results
 When there is no flame:
 
 Sample output: `Digital: off; Analog: 993`

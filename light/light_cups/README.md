@@ -1,4 +1,4 @@
-#Light Cups
+# Light Cups
 
 This is a sample program for the light cups. The basic concept of the project code is the same as the provided code. 
 
@@ -14,7 +14,8 @@ If the two modules are not arranged as shown, this project won't work properly. 
 
 
 
-##Hardware
+##
+Hardware
 
 This uses the following wires:
 
@@ -55,7 +56,7 @@ This is the wiring, *not* how the light cup modules should be positioned. These 
 
 
 
-###Placement
+### Placement
 
 This is how the modules should be positioned. Note that in both the mercury is resting to the left. In one that means it's touching the contact; in the other the mercury isn't.
 

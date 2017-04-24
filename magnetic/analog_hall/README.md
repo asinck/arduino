@@ -1,9 +1,9 @@
-#Analog Hall Sensor
+# Analog Hall Sensor
 
 This is a sample program for the analog hall sensor.
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to VCC (+)
 - Black: GND to GND
@@ -11,7 +11,7 @@ This uses the following wires:
 
 With the pins pointing down and the interesting side of the module facing you, the pins from left to right are `-`, `+`, and `S`.
 
-##Results
+## Results
 
 When the magnet is out of range:
 

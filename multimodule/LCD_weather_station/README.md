@@ -1,10 +1,10 @@
-#Weather Station
+# Weather Station
 
 This is an expanded program for the DHT11 Temperature and Humidity module. This is a combination of the basic program for it and the basic program for the LCD module.
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Arduino to LCD:

@@ -1,10 +1,10 @@
-#Shock Sensor
+# Shock Sensor
 
 This is a sample program for the shock sensor. By "shock", it means physical contact jarring shock, not an electric shock.
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to middle pin

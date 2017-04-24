@@ -1,4 +1,4 @@
-#I2C Scanner
+# I2C Scanner
 
 This is a sample program for a Sainsmart I2C 16x2 LCD screen.
 
@@ -10,7 +10,7 @@ This sort of follows instructions at https://forum.arduino.cc/index.php?topic=12
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to vcc

@@ -1,4 +1,4 @@
-#Photoresistor
+# Photoresistor
 
 This is a sample program for the photoresistor.
 
@@ -6,7 +6,7 @@ The output has a range of 0..1023. The sensor measures darkness; that is to say,
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to middle pin (`+`)
@@ -15,7 +15,7 @@ This uses the following wires:
 
 With the pins pointing down and the interesting side of the module facing you, the pins from left to right are `S`, `+`, and `-`.
 
-##Results
+## Results
 When the lamp is off: 
 
 Sample output: `Brightness: 434`
@@ -37,7 +37,7 @@ Sample output: `Brightness: 982`
 
 
 
-##Other
+## Other
 
 This is what the front of the sensor looks like.
 
