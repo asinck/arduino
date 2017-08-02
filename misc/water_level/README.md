@@ -1,10 +1,10 @@
-#Water Level Sensor
+# Water Level Sensor
 
 This is a sample program for the water level sensor.
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to middle pin (`+`)
@@ -19,7 +19,7 @@ With the pins pointing *down* and the interesting side of the module facing you,
 
 
 
-##Results
+## Results
 
 The sensor can definitely detect when it is (partially) in water. However, instead of giving a water level it seems to give a value close to its maximum possible value, minus a little bit. As the module is left in water the reading slowly climbs, as does the maximum possible value. Initially the value when semi-submerged is ~40, but after submerging the module to the end of the copper bars, and watching the max crawl to 400, the readings consistently hit close to 400 for any submersion. However, the numbers seem to drop back down after a while of being out of water.
 

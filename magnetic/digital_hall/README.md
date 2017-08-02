@@ -1,4 +1,4 @@
-#Digital Hall Sensor
+# Digital Hall Sensor
 
 This is a sample program for the digital hall sensor.
 
@@ -7,7 +7,7 @@ Note that this is basically a switch.
 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to VCC (+)
 - Black: GND to GND
@@ -15,7 +15,7 @@ This uses the following wires:
 
 With the pins pointing down and the interesting side of the module facing you, the pins from left to right are `-`, `+`, and `S`.
 
-##Results
+## Results
 
 When the magnet is out of range:
 

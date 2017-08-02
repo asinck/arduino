@@ -1,4 +1,4 @@
-#Switches
+# Switches
 
 This is a sample program for the three pin switches. The code is based on the provided sample code.
 
@@ -7,7 +7,7 @@ Note, the four pin reed switch works with this program, using the DO (Digital Ou
 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to 5V in
 - Black: GND to GND (-)
@@ -20,13 +20,13 @@ The pins on each particular switch is shown below. For the three pin modules, GN
 This sketch uses pin 12 of an Arduino Mega for the signal input, pin 13 for output to LED, and the 5V and GND pins for power. The LED is plugged directly in to the Arduino.
 
 
-####Contact Switches
+#### Contact Switches
 This is the button switch. The signal is `HIGH` when the button is not pressed, and `LOW` when it is.
 
 ![button-on](pictures/button-on.jpg)
 ![button-on](pictures/button-off.jpg)
 
-####Positional Switches
+#### Positional Switches
 These switch depending on their 3D position. When tilted one way, they output `HIGH`; when another way, `LOW`.
 
 This is the ball switch. 
@@ -40,7 +40,7 @@ This is the tilt switch.
 ![button-on](pictures/tilt-off.jpg)
 
 
-####Magnetic Switches
+#### Magnetic Switches
 These switch depending on if they feel a magnetic force nearby.
 
 This is the small reed switch. When there is a magnetic force nearby, the output is `LOW`; otherwise, `HIGH`.

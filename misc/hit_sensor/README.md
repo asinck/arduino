@@ -1,6 +1,4 @@
-
-
-#hit sensor
+# hit sensor
 
 This is a sample program for the hit sensor. The code is approximately the same as the provided code. 
 
@@ -11,7 +9,7 @@ There is a 1 second delay after a change of input (struck vs not struck), becaus
 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to middle pin
 - Black: GND to GND (-)

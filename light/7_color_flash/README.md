@@ -1,4 +1,4 @@
-#7 Color Flash LED
+# 7 Color Flash LED
 
 This is a demo of the 7 color flash LED.
 
@@ -7,7 +7,7 @@ There is no software. It runs on its own.
 I have so many questions.
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 3.3V to `s`
 - Black: GND to `-`

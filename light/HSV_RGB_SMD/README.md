@@ -1,4 +1,4 @@
-#HSV RGB SMD
+# HSV RGB SMD
 
 This is another example program for the RGB SMD module. This one uses HSV instead of RGB for the colors.
 

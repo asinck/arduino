@@ -1,9 +1,9 @@
-#touch sensor
+# Touch Sensor
 
 This is a sample program for the touch sensor.
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to VCC (+)
 - Black: GND to GND
@@ -12,7 +12,7 @@ This uses the following wires:
 
 With the pins pointing down and the interesting side of the module facing you, the pins from left to right are A0, GND, +, and D0.
 
-##Results
+## Results
 This is when there is no contact. Sample output: `Digital: off; Analog: 1023`
 ![notouchee](pictures/notouchee.jpg) 
 
@@ -23,7 +23,7 @@ This is when the sensor is touched. Sample output: `Digital: on; Analog: 144`
 
 
 
-##Possible Issues
+## Possible Issues
 
 First of all, a prolonged contact (a few seconds) will be half ignored after the first little bit; the green indicator light will remain on (weakly), but the digital pin will output `LOW` and the analog pin will go back to giving `1023`. 
 

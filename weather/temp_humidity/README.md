@@ -1,11 +1,11 @@
-#DHT11 Temperature and Humidity Sensor
+# DHT11 Temperature and Humidity Sensor
 
 This is an example program for the DHT11 Temperature and Humidity module. Adapted from the code included with the module.
 
 See also http://www.uugear.com/portfolio/dht11-humidity-temperature-sensor-module/ for information on how this sensor works and why the code is the way it is.
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Arduino:
   - Red: 3V to VCC

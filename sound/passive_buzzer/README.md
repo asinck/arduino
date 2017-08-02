@@ -1,4 +1,4 @@
-#Passive Buzzer
+# Passive Buzzer
 
 This is a sample program for the passive buzzer. 
 
@@ -9,7 +9,7 @@ This is a sample program for the passive buzzer.
 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Red: 5V to middle pin
 - Black: GND to GND (-)

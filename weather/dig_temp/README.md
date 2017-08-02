@@ -1,4 +1,4 @@
-#DS18B20 Temperature  Sensor
+# DS18B20 Temperature Sensor
 
 This is an example program for the DS18B20 Temperature module. Adapted from the code included with the module.
 
@@ -10,7 +10,7 @@ This project requires the OneWire library, included as a zip. It was downloaded 
 
 To include this library, in the Arduino menu go to Sketch --> Import Library --> Add Library and then select the .zip file.
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Arduino:

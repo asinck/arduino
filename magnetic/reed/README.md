@@ -1,10 +1,10 @@
-#Reed Switch
+# Reed Switch
 
 This is a sample program for the reed switch.
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to VCC (+)
@@ -14,7 +14,7 @@ This uses the following wires:
 
 With the pins pointing down and the interesting side of the module facing you, the pins from left to right are A0, GND, +, and D0.
 
-##Results
+## Results
 When the magnet is out of range:
 
 Sample output: `Digital: off; Analog: 1023`

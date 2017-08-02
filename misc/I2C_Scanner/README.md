@@ -1,10 +1,10 @@
-#I2C Scanner
+# I2C Scanner
 
 This is a program to find the I2C address of a module. It was copied directly from http://playground.arduino.cc/Main/I2cScanner . 
 
 
 
-##Hardware
+## Hardware
 
 This uses the following wires:
 - Red: 5V to vcc

@@ -1,4 +1,4 @@
-#Module Overview
+# Module Overview
 
 These are the sensors / outputs at https://www.amazon.com/gp/product/B01CS6UMKQ . 
 
@@ -30,7 +30,7 @@ You don't know the meaning of manual focus until you're adjusting the size of a 
 
 
 
-###Light Sensors
+### Light Sensors
 
 This uses IR to track objects.
 ![tracker](pictures/tracker.jpg)
@@ -50,7 +50,7 @@ This detects if the light beam going through it has been interrupted.
 This detects the presence of light.
 ![photoresistor](pictures/photoresistor.jpg)
 
-###Light Output
+### Light Output
 This is an LED with the three primary colors of light. In theory you could make all colors with this, but they don't mix very well.
 ![3-color-led](pictures/3-color-led.jpg)
 
@@ -73,7 +73,7 @@ This emits IR.
 These are "light cups". The idea behind these is basically to put the two tilt switches against each other, tip to tip, and rock both modules back and forth. This will trigger one switch but not the other, and the arduino can make it seem like light is pouring from one into the other by adjusting the brightness of each depending on their tilt.
 ![light-cup](pictures/light-cup.jpg)
 
-###Sound Sensors
+### Sound Sensors
 This detects small sounds.
 ![small-sound](pictures/small-sound.jpg)
 
@@ -83,12 +83,12 @@ This detects big sounds.
 This uses ultrasonic sound to figure out how far away an object is, like a bat. It's accurate 1"-16'.
 ![ultrasonic](pictures/ultrasonic.jpg)
 
-###Sound Output
+### Sound Output
 The following are buzzers.
 ![buzzer](pictures/buzzer.jpg)
 ![passive-buzzer](pictures/passive-buzzer.jpg)
 
-###Temperature Sensors
+### Temperature Sensors
 This detects both temperature and humidity.
 ![temp-and-humidity](pictures/temp-and-humidity.jpg)
 
@@ -97,13 +97,13 @@ These detect temperature, analog or digital.
 ![digital-temp](pictures/digital-temp.jpg)
 ![temp](pictures/temp.jpg)
 
-###Magnetic Sensors
+### Magnetic Sensors
 These are magnetic sensors.
 ![analog-hall](pictures/analog-hall.jpg)
 ![hall-magnetic](pictures/hall-magnetic.jpg)
 ![linear-hall](pictures/linear-hall.jpg)
 
-###Switches
+### Switches
 This has an internal ball and is used as a tilt switch.
 ![ball-switch](pictures/ball-switch.jpg)
 
@@ -117,7 +117,7 @@ These are reed switches. They activate on presense of a magnetic field.
 This is a button switch. Must remain pressed to remain toggled.
 ![button-switch](pictures/button-switch.jpg)
 
-###Misc. Sensors
+### Misc. Sensors
 This is both a gyroscope and accelerometer.
 ![gyroscope-accelerator](pictures/gyroscope-accelerator.jpg)
 
@@ -145,11 +145,11 @@ This detects water.
 This detects being touched.
 ![touch](pictures/touch.jpg)
 
-###Misc. Output
+### Misc. Output
 This is a relay module.
 ![relay](pictures/relay.jpg)
 
-###Other
+### Other
 This is a real-time-clock module. It keeps the time, even when unplugged. 
 ![rtc](pictures/rtc.jpg)
 

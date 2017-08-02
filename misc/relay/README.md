@@ -1,9 +1,9 @@
-#Relay
+# Relay
 
 This is an example program for the relay module. Example code and a tutorial can be found at http://osoyoo.com/?p=615 . 
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 - Arduino:
   - Red: 5V to breadboard
