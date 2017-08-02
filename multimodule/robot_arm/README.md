@@ -1,9 +1,9 @@
-#Robot Arm
+# Robot Arm
 
 This is a simple program to provide joystick control to a robot arm. Based on my [demo joystick program](https://github.com/asinck/arduino/tree/master/misc/joystick).
 
 
-##Hardware
+## Hardware
 This uses the following wires:
 
 -   Joystick
