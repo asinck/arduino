@@ -58,9 +58,9 @@ The "power supply" happens to be a Raspberry Pi car. It was what was handy. It's
 
 Output is in the format `(x, y, z)`. The defaults are `(90, 90, 1)`, with range of `[0, 180]` for `x` and `y` and values of `0` or `1` for `z`. 
 
-When you control this, the wires on the joystick should be off to the right and the hand facing away from you. Otherwise, some controls might seem backwards.
+When you control this, the wires on the joystick should be off to the left and the hand facing away from you. Otherwise, some controls might seem backwards.
 
-Rotation of the joystick results in the expected elbow and wrist motion; pressing the joystick opens the hand (releasing closes it).
+Moving the joystick results in the expected elbow and wrist motion; pressing the joystick opens the hand (releasing closes it).
 
 Here are some pictures. What these don't show very well is the range of motion of the arm. The range is ~90 degrees in either direction from the resting point.
 

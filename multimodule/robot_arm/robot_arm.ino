@@ -19,6 +19,8 @@ double servoMin = 0.0;
 double handMax = 120;
 double handMin = 60;
 
+int currentElbow, currentWrist;
+
 //analog x and y for the joystick
 int pinx = 0;
 int piny = 1;
@@ -45,14 +47,18 @@ void setup() {
     elbow.attach(elbowPin);
     wrist.attach(wristPin);
     hand.attach(handPin);
+    currentElbow = (servoMax-servoMin)/2.0;
+    currentWrist = (servoMax-servoMin)/2.0;
+    elbow.write(currentElbow);
+    wrist.write(currentWrist);
 
     Serial.begin(9600);
 } 
 
 void loop() { 
     //read the values
-    int x = analogRead(pinx) - midx;
-    int y = analogRead(piny) - midy; //the y axis is inverted, imho
+    int x = midx - analogRead(pinx);
+    int y = midy - analogRead(piny); //the y axis is inverted, imho
     int z = digitalRead(pinz);
 
     //filter out the noise from off-by-one readings at 0
@@ -62,12 +68,18 @@ void loop() {
         y = 0;
 
     //scale the measurements for output
-    x = scale(x);
-    y = scale(y);
+    currentElbow += scale(x);
+    currentWrist += scale(y);
     
+    if (currentElbow < servoMin) currentElbow = servoMin;
+    else if (currentElbow > servoMax) currentElbow = servoMax;
+
+    if (currentWrist < servoMin) currentWrist = servoMin;
+    else if (currentWrist > servoMax) currentWrist = servoMax;
+
     //output to the joints
-    elbow.write(x);
-    wrist.write(y);
+    elbow.write(currentElbow);
+    wrist.write(currentWrist);
 
     //adjust the hand as needed
     if (z == 1) {
@@ -79,8 +91,8 @@ void loop() {
 
     //do all the converting now instead of printing each part
     //separately, because printing slows the arduino down noticeably.
-    String strX = String(x);
-    String strY = String(y);
+    String strX = String(currentElbow);
+    String strY = String(currentWrist);
     String strZ = String(z);
     String output = "(" + strX + ", " + strY + ", " + strZ + ")";
     Serial.println(output);
@@ -101,6 +113,15 @@ int scale(int input) {
       output = servoMax * ((input+512) / 1024)
       
      */
-    int output = servoMax * ((input+512.0) / 1024.0);
+    // int output = servoMax * ((input+512.0) / 1024.0);
+    // return output;
+
+    
+    // (input / 512) = (output / servoMax)
+
+    double reduction = 10.0;
+    double output = (input / 512.0) * servoMax;
+    output /= reduction;
     return output;
+
 }
